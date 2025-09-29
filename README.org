@@ -1,0 +1,18 @@
+* Emacs new file templates
+
+** Setup
+*** Spacemacs
+#+begin_src emacs-lisp
+  (defun dotspacemacs/layers ()
+   (templates ;; https://www.spacemacs.org/layers/+completion/templates/README.html
+  	:variables
+  	templates-private-directory "~/Projects/emacs-templates/templates"
+  	;; TODO try out default templates for a while
+  	;; templates-use-default-templates nil
+  	)
+   )
+#+end_src
+
+** References
+- https://github.com/mineo/yatemplate
+- https://github.com/AndreaCrotti/yasnippet-snippets/
