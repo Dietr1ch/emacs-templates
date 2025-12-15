@@ -10,7 +10,7 @@
   outputs =
     {
       nixpkgs,
-      ...,
+      ...
     }:
     let
       supportedSystems = [
