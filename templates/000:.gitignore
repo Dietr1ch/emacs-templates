@@ -6,3 +6,26 @@
 
 # Git
 !.gitignore
+
+
+# Project
+!.config
+!.*.example
+!.envrc
+!.ignore
+!.spelling
+!.treefmt.toml
+TODOs.org
+
+
+# Rust
+!.cargo
+!.rustfmt.toml
+/target
+
+
+# Perf
+flamegraph.svg
+*.data
+*.data.old
+*.coz
