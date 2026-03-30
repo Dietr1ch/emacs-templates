@@ -1,0 +1,3 @@
+[[types]]
+glob = "data/stuff/*.type.ron"
+type = "crate::models::stuff::Type" # ./src/models/stuff.rs
