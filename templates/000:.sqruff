@@ -1,0 +1,14 @@
+# -*- mode: toml; -*-
+
+# https://playground.quary.dev/docs/usage/configuration/
+
+
+[sqruff]
+dialect = postgres
+# exclude_rules = AM01,AM02
+rules = all
+
+[sqruff:indentation]
+indent_unit = tab
+tab_space_size = 2
+indented_joins = True
