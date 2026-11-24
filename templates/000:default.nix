@@ -1,0 +1,9 @@
+{ ... }:
+
+{
+  imports = [
+    ./dir
+
+    ./file.nix
+  ];
+}
